@@ -1,0 +1,105 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: "Arun Kumar",
+    role: "Software Engineer",
+    company: "TCS",
+    image: null,
+    initials: "AK",
+    color: "from-violet-500 to-purple-600",
+    quote: "Karka's Pay After Placement model gave me the confidence to quit my dead-end job and learn full-stack development. Six months later I'm at TCS earning more than I ever imagined. Best decision of my life.",
+    course: "Full Stack Development",
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Priya Dharshini",
+    role: "UI/UX Designer",
+    company: "Novac",
+    image: null,
+    initials: "PD",
+    color: "from-pink-500 to-rose-600",
+    quote: "I was a commerce student with zero design background. Karka's mentors made Figma feel like second nature. The real-project approach made all the difference — I had a portfolio before I even finished the course.",
+    course: "UI/UX Design",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Santhosh Raj",
+    role: "Data Analyst",
+    company: "HCL",
+    image: null,
+    initials: "SR",
+    color: "from-blue-500 to-indigo-600",
+    quote: "The GenAI module was mind-blowing. I went from Excel spreadsheets to building AI-powered dashboards at HCL. The mentors are industry pros who actually care about your growth.",
+    course: "Data Analytics with AI",
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: "Kavitha Selvaraj",
+    role: "Digital Marketing Lead",
+    company: "Matrimony.com",
+    image: null,
+    initials: "KS",
+    color: "from-emerald-500 to-green-600",
+    quote: "Coming from a non-tech background, I was scared. But Karka's structured curriculum and 1-on-1 sessions made everything click. Now I lead digital campaigns at Matrimony.com — completely transformed.",
+    course: "Digital Marketing",
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: "Vijay Anand",
+    role: "Cloud Engineer",
+    company: "Amazon",
+    image: null,
+    initials: "VA",
+    color: "from-orange-500 to-amber-600",
+    quote: "The Cloud & DevOps program at Karka is no joke — it's rigorous, industry-focused, and the projects are real. Six months in and I landed at Amazon. Pay After Placement is a game-changer for students like me.",
+    course: "Cloud & DevOps",
+    rating: 5,
+  },
+];
+
+export const faqs = [
+  {
+    id: 1,
+    question: "What is Pay After Placement?",
+    answer: "We want you to focus entirely on your learning without worrying about upfront costs. You only share your success (and the fees) after you land a tech job with a guaranteed minimum salary. It's our way of saying we're in this together.",
+    open: true,
+  },
+  {
+    id: 2,
+    question: "Is placement guaranteed?",
+    answer: "Our placement support includes dedicated career counselling, resume building, mock interviews, and direct connections to our hiring partners. Our team works closely with you until you land the right role.",
+    open: false,
+  },
+  {
+    id: 3,
+    question: "Who are the mentors at Karka?",
+    answer: "Our mentors are working industry professionals with experience at top companies. They bring real-world knowledge, practical project experience, and genuine commitment to your success.",
+    open: false,
+  },
+  {
+    id: 4,
+    question: "Do I need a background in coding or CSE?",
+    answer: "Absolutely not. Many of our most successful students started with zero technical background. Our curriculum is designed to take you from beginner to job-ready regardless of your educational background.",
+    open: false,
+  },
+  {
+    id: 5,
+    question: "How long does the course take?",
+    answer: "Course durations vary by program, typically ranging from 2 to 6 months. We also offer flexible scheduling to accommodate working professionals and students.",
+    open: false,
+  },
+  {
+    id: 6,
+    question: "Will I get internship or project experience?",
+    answer: "Every course at Karka includes real-world projects. Depending on your program, you will work on live commercial client projects through our software studio to build your professional portfolio.",
+    open: false,
+  },
+];
+
+export const hiringPartners = [
+  "Amazon", "TCS", "HCL", "Matrimony.com", "Novac", "Capecom", "Flow", "Sodisys"
+];
